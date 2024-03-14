@@ -33,7 +33,7 @@
 
                 <a href="https://t.me/SolanaRhoades_Portal" target="_blank" class="links__btn">Join the community</a>
                 <div class="social__links">
-                    <a href="https://twitter.com/solanarhoades" target="_blank">
+                    <a href="https://twitter.com/SolanaRhoa17399" target="_blank">
                         <img src="images/social_x.html" alt="">
                     </a>
                     <a href="https://t.me/SolanaRhoades_Portal" target="_blank">
@@ -53,7 +53,7 @@
             </h1>
             <h3 class="wow animate__bounceIn">Solana Rhoades has come to shock you all</h3>
             <div class="intro__links wow animate__bounceIn">
-                <a href="#" target="_blank" class="links__link white">
+                <a href="#" onclick="window.location.href='https://raydium.io/swap/'" target="_blank" class="links__link white">
                     Buy on Raydium
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewbox="0 0 24 25" fill="none">
                         <!-- ... (rest of the SVG content) ... -->
@@ -68,7 +68,7 @@
         <div class="container">
             <img src="img/56.png" alt="About Solana Rhoades Image" class="about__picture wow animate__bounceIn rounded-border">
             <div class="about__content">
-                <div class="content__title wow animate__bounceIn">About $SOLANARHOADES</div>
+                <div class="content__title wow animate__bounceIn">About $LANA</div>
                 <div class="content__text wow animate__bounceIn">
                     Solana Rhoades has come to shock the whole world, aiming to be the best meme coin in crypto. With a great reputation, its journey reflects the unpredictability of crypto, exploring risk and reward in the ever-evolving world of decentralized finance. May Solana Rhoades's legacy live on the Solana blockchain, recognized for the art it deserves.
                 </div>
@@ -136,10 +136,14 @@
         </div>
     </footer>
 
-    <script src="js/swiper-element-bundle.min.js"></script>
-    <script src="js/main-v2.js"></script>
-    <script src="js/wow.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/jquery-3.7.0.min.js"></script>
-    <script src="js/main.js"></script>
+    <script>
+        function copyContent() {
+            var copyText = document.getElementById("copytext");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+        }
+    </script>
 </body>
 </html>
